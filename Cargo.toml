@@ -1,0 +1,12 @@
+[package]
+name = "redfuge-proxy"
+version = "0.1.0"
+authors = ["Nathaniel Allred <neallred@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper-reverse-proxy = "0.4"
+hyper = "0.12"
+futures = "0.1"
