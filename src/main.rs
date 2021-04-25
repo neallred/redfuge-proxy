@@ -22,8 +22,9 @@ fn main() {
         routes.insert("black.allthings.red", "1024");
         routes.insert("allredchristmastraditions.allthings.red", "1025");
         routes.insert("library.allthings.red", "1026");
-        routes.insert("lr.allthings.red", "1027");
-        routes.insert("pic.allthings.red", "1028");
+        routes.insert("loan.allthings.red", "1027");
+        routes.insert("lr.allthings.red", "1028");
+        routes.insert("pic.allthings.red", "1029");
         let remote_addr = socket.remote_addr();
         service_fn(move |req: Request<Body>| { // returns BoxFut
             if let Some(host_str) = req.uri().host() {
